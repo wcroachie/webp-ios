@@ -34,7 +34,7 @@ than you can access them by the above object.
 
 
 
-self[new Error().stack.match(location.href.match(/(.*)\//g)+"(.*?):")[1]]=()=>{
+window[new Error().stack.match(location.href.match(/(.*)\//g)+"(.*?):")[1]]=()=>{
   
   
   
