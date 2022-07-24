@@ -19,10 +19,10 @@ if the arbitrary encoder kicks in, it will attach the following
 object to the window:
 
   window.__arbitraryWEBPEncoder={
-    canvasToBlob          : function(){...},
-    canvasToBlobAsynch    : function(){...},
-    canvasToDataURL       : function(){...},
-    canvasToDataURLAsynch : function(){...},
+    canvasToWEBPBlob          : function(){...},
+    canvasToWEBPBlobAsynch    : function(){...},
+    canvasToWEBPDataURL       : function(){...},
+    canvasToWEBPDataURLAsynch : function(){...},
   };
 
 as well as automatically hooking them into the HTMLCanvasElement
